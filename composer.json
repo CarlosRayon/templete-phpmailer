@@ -1,0 +1,12 @@
+{
+    "name": "vendor/templete-phpmailer",
+    "description": "Templete for phpmailer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Rayon",
+            "email": "carlosrayon.developer@gmail.com"
+        }
+    ],
+    "require": {}
+}
