@@ -30,6 +30,21 @@ try {
             'allow_self_signed' => true
         )
     );
+
+
+    /* ---- SIN SSL ---- */
+    // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+    // // $mail->isSMTP();                                            // Send using SMTP
+    // $mail->Host       = 'mail.rogersco.es';                     // Set the SMTP server to send through
+    // $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    // $mail->Username   = 'evento-cocktail@rogersco.es';          // SMTP username
+    // $mail->Password   = 'D1BshCzT';                             // SMTP password
+    // $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+    // $mail->Port       = 587;                                    // TCP port to connect to
+    /* ---- END SIN SSL ---- */
+
+
+
     $mail->Encoding = "quoted-printable";
     $mail->CharSet = 'UTF-8';
 
